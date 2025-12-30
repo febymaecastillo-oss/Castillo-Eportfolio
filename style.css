@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background: url("images/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #2f3e46;
+  line-height: 1.8;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 100px 20px 70px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(6px);
+  border-bottom-left-radius: 120px;
+  border-bottom-right-radius: 120px;
+}
+
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #a3c4bc;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.8em;
+  margin: 10px 0 5px;
+}
+
+header p {
+  font-size: 1.1em;
+  color: #3a5a40;
+}
+
+/* NAV */
+nav {
+  margin-top: 25px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #344e41;
+  font-weight: 600;
+  background: #e9f5db;
+  padding: 8px 18px;
+  border-radius: 25px;
+}
+
+nav a:hover {
+  background: #ccd5ae;
+}
+
+/* SECTIONS */
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 70px 20px;
+}
+
+h2 {
+  font-size: 2.2em;
+  margin-bottom: 25px;
+  color: #344e41;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.88);
+  padding: 35px;
+  border-radius: 35px;
+  box-shadow: 0 20px 35px rgba(0,0,0,0.15);
+}
+
+/* LIST */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* SOCIAL LINKS */
+.social a {
+  display: inline-block;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #1b4332;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  background: rgba(255,255,255,0.8);
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  font-size: 0.95em;
+}
